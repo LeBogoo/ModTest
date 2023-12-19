@@ -1,0 +1,18 @@
+eng = {
+   pumpkin-plant = Pumpkin Plant
+   pumpkin-item = Pumpkin
+   pumpkin-seeds = Pumpkin Seeds
+   strawberry-plant = Strawberry Plant
+   strawberry-item = Strawberry
+   strawberry-seeds = Strawberry Seeds
+   sprinkler = Sprinkler
+}
+ger = {
+   pumpkin-plant = Kürbis Pflanze
+   pumpkin-item = Kürbis
+   pumpkin-seeds = Kürbis-Samen
+   strawberry-plant = Erdbeer Strauch
+   strawberry-item = Erdbeere
+   strawberry-seeds = Erdbeer-Samen
+   sprinkler = Sprinkleranlage
+}

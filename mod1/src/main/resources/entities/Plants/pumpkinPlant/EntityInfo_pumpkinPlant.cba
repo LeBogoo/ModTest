@@ -1,0 +1,80 @@
+STANDARD = {
+	save = true
+}
+RENDER = {
+	models = [
+		{
+			modelFile = pumpkin0.cba
+		}
+		{
+			modelFile = pumpkin1.cba
+		}
+		{
+			modelFile = pumpkin2.cba
+		}
+		{
+        	modelFile = pumpkin3.cba
+        }
+		{
+			additive = true
+			modelFile = pumpkinFruit.cba
+		}
+	]
+}
+TILE_OBJECT = {
+	size = 2
+	terrainType = soil
+}
+SEED = {
+	germinationTime = 1
+}
+HEALTH = {
+	healthDownTime = 100
+}
+GROWTH = {
+	modelStages = 1;2;3
+	growTime = 100
+}
+HARVESTABLE = {
+	itemId = pumpkin
+	harvestCount = 2
+	effect = {
+		type = variant
+		effect = {
+			type = reference
+			id = leafExplode.cba
+		}
+		params = [
+			{
+				type = colour
+				varName = colour
+				value = 0.8;0.124921;0.02042
+			}
+		]
+	}
+}
+FRUITER = {
+	itemId = pumpkin
+	stageDuration = 200
+	fruitingCycles = [
+		{
+			requiredGrowthStage = 2
+			fruitStageModels = 4
+			fruitPerStage = 2
+		}
+	]
+}
+PICKING = {
+	 name = lebogo:mymod:pumpkin-plant
+}
+WATER_REQ = {
+	dryOutTime = 150
+}
+WEEDS_REQ = {
+	influence = 1.0
+	weedTime = 400
+}
+AGE = {
+	harvestWindowTime = 700
+	ageDecreaseTime = 700
+}

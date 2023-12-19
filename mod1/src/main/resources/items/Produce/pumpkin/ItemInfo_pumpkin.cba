@@ -1,0 +1,17 @@
+ITEM = {
+	stacks = true
+	price = 100
+	nameId = lebogo:mymod:pumpkin-item
+	shopId = groceries
+	components = [
+		holdable = {
+		}
+		quality = {
+			priceIncreaseFactor = 2.0
+		}
+		compostable = {
+		}
+		edible = {
+		}
+	]	
+}

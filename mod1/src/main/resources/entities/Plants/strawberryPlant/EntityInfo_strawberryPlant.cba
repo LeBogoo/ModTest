@@ -1,0 +1,80 @@
+STANDARD = {
+	save = true
+}
+RENDER = {
+	models = [
+		{
+			modelFile = strawberry0.cba
+		}
+		{
+			modelFile = strawberry1.cba
+		}
+		{
+			modelFile = strawberry2.cba
+		}
+		{
+        	modelFile = strawberry3.cba
+        }
+		{
+			additive = true
+			modelFile = strawberryFruit.cba
+		}
+	]
+}
+TILE_OBJECT = {
+	size = 1
+	terrainType = soil
+}
+SEED = {
+	germinationTime = 20
+}
+HEALTH = {
+	healthDownTime = 100
+}
+GROWTH = {
+	modelStages = 1;2;3
+	growTime = 70
+}
+HARVESTABLE = {
+	itemId = strawberry
+	harvestCount = 5
+	effect = {
+		type = variant
+		effect = {
+			type = reference
+			id = leafExplode.cba
+		}
+		params = [
+			{
+				type = colour
+				varName = colour
+				value = 0.22652;0.761272;0.133995
+			}
+		]
+	}
+}
+FRUITER = {
+	itemId = strawberry
+	stageDuration = 100
+	fruitingCycles = [
+		{
+			requiredGrowthStage = 2
+			fruitStageModels = 4
+			fruitPerStage = 5
+		}
+	]
+}
+PICKING = {
+	 name = lebogo:mymod:strawberry-plant
+}
+WATER_REQ = {
+	dryOutTime = 150
+}
+WEEDS_REQ = {
+	influence = 1.0
+	weedTime = 400
+}
+AGE = {
+	harvestWindowTime = 700
+	ageDecreaseTime = 700
+}

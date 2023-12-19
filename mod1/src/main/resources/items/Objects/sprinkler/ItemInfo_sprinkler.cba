@@ -1,0 +1,11 @@
+ITEM = {
+	stacks = true
+	price = 5000
+	nameId = lebogo:mymod:sprinkler
+	shopId = toolShop
+	components = [
+		object = {
+			blueprintId = sprinkler
+		}
+	]	
+}

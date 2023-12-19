@@ -1,0 +1,14 @@
+ITEM = {
+	stacks = true
+	price = 4
+	nameId = lebogo:mymod:strawberry-item
+	shopId = groceries
+	components = [
+		holdable = {
+		}
+		quality = {
+		}
+		compostable = {
+		}
+	]	
+}

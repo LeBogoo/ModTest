@@ -1,0 +1,36 @@
+STANDARD = {
+	save = true
+}
+RENDER = {
+	models = [
+		{
+			modelFile = sprinkler0.cba
+		}
+		{
+            modelFile = sprinkler1.cba
+        }
+	]
+	parts = [
+    	main = {
+    		startShown = true
+    		useMainTransform = true
+    		defaultMesh = 0
+    	}
+    	spinner = {
+    		startShown = true
+    		useMainTransform = false
+    		defaultMesh = 1
+    	}
+    ]
+}
+TILE_OBJECT = {
+	size = 1
+	isBlock = true
+	terrainType = soil
+}
+SPRINKLER = {
+    renderPartId = spinner
+}
+PICKING = {
+	name = lebogo:mymod:sprinkler
+}

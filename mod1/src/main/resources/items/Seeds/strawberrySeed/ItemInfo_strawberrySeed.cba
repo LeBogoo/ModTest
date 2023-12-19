@@ -1,0 +1,11 @@
+ITEM = {
+	stacks = true
+	price = 50
+	nameId = lebogo:mymod:strawberry-seeds
+	shopId = seedShop
+	components = [
+		seed = {
+			blueprintId = strawberryPlant
+		}
+	]
+}

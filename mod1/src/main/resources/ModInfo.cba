@@ -1,0 +1,8 @@
+mod = {
+    author = LeBogo
+    name = My Mod
+    description = This is my small mod
+    version = 1.0-SNAPSHOT
+    modId = lebogo:mymod
+    jar = mod1-1.0-SNAPSHOT.jar
+}
