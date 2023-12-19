@@ -9,12 +9,11 @@ In order to build this project, you first need to build the `game` Project.
 - Run the Maven Lifecycle `game/package`
 - Run the Maven Lifecycle `mod1/package`
 
-This will automatically create a zip file with the proposed mod format for Home Grown.
+This will automatically create a jar file with the proposed mod format for Home Grown.
 
-Inside the zip are the following files:
+Inside the jar are the following files:
 
-- mod1.zip
-  - mod1-1.0-SNAPSHOT.jar
+- mod1-1.0-SNAPSHOT.jar
   - ModInfo.cba
   - Translations.cba
   - icon.png
